@@ -8,5 +8,6 @@ elsif array.length == 2
     # access last element of the array and put an 'and' in front of it
     # then join with commas
     array[-1] = "and #{array[-1]}"
+    array.join(", ")
   end
 end
